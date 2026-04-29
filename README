@@ -1,0 +1,45 @@
+hopEase — E-Commerce Website (SEC035 Experiment 7)
+Course: Web Programming with Python and JavaScript Lab (SEC035)
+Program: B.Tech CSE | Semester II | Session 2025-26 (Even)
+Department: SOET | Faculty: Mr. Aryan Sharma
+
+Project Structure
+ecommerce_website/
+├── index.html      ← Full single-page app (hero, products, cart, checkout)
+├── style.css       ← All CSS — layout, cards, cart, checkout, animations
+├── script.js       ← All JavaScript — products, cart logic, checkout, filters
+└── README.md       ← This file
+How to Run
+# Option 1 — Just open in browser (no server needed)
+Double-click index.html
+
+# Option 2 — Using Python simple server (recommended)
+cd ecommerce_website
+python -m http.server 8000
+# Then open: http://localhost:8000
+Features & Tasks
+Task	Feature	Details
+Task 1	Project setup & homepage	Hero section with stats, shapes, floating cards
+Task 2	Product listing	12 products in responsive card grid, emoji placeholders
+Task 3	CSS Styling	Warm luxury theme — teal + gold, DM Sans + Playfair Display
+Task 4	Cart functionality	Add/remove items, dynamic rendering
+Task 5	Price calculation	Subtotal, shipping (free above ₹999), total — all live
+Task 6	Checkout simulation	Full form (name, address, payment), order confirmation modal
+Task 7 ✨	Bonus features	Qty +/- buttons, localStorage persistence, category filter, sort, toast alerts
+JavaScript Features (script.js)
+Product data array — 12 items across 5 categories
+Category filter pills (Electronics, Fashion, Accessories, Home, Sports)
+Sort by price (low/high) or name
+Add to Cart — highlights button when added
+Quantity controls (+ / −) per cart item
+Remove individual item or clear entire cart
+Real-time price calculation (subtotal + conditional shipping + total)
+Free shipping above ₹999 with discount row display
+Checkout form with client-side validation + shake animation
+Order confirmation modal with order ID, customer details, total
+Cart state saved in localStorage — survives page refresh
+Toast notifications for all actions
+References
+Google Fonts (DM Sans, Playfair Display): https://fonts.google.com/
+MDN Web Docs (HTML/CSS/JS): https://developer.mozilla.org/
+localStorage API: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
